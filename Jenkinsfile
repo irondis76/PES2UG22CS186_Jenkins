@@ -11,7 +11,7 @@ pipeline {
 
         stage('Test') {
             steps { 
-                sh './output'
+                sh './wrong_output'  //wrong file name
             }
         }
 
@@ -29,3 +29,4 @@ pipeline {
         }  
     }  
 }
+
